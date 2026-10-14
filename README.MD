@@ -45,7 +45,6 @@ Optional: pass a fixed seed with `node server.js 12345` so every restart regener
 | **E** | Open / close inventory & crafting |
 | **Escape** | Close open UI |
 | **T** | Open chat |
-| **F** | Eat food (same as right-click while food is selected) |
 | **F4** | Toggle debug info |
 
 ---
@@ -53,16 +52,7 @@ Optional: pass a fixed seed with `node server.js 12345` so every restart regener
 ## Gameplay
 
 ### Mining
-Blocks break over time. Bare hands are slow; pickaxes speed it up:
-
-| Pickaxe | Multiplier |
-|---|---|
-| Hand | 1.0× |
-| Stone | 1.5× |
-| Iron | 2.25× |
-| Gold | 3.5× |
-| Diamond | 5.0× |
-| Mythril | 8.0× |
+Blocks break over time. Bare hands are slow; pickaxes speed it up
 
 ### Crafting
 Open inventory with **E**. Combine items in the 3×3 grid to the top-left. Match the pattern; the result shows in the slot on the right.
@@ -80,14 +70,7 @@ Recipes:
 Place a furnace, right-click to open. Put ore in the top slot, fuel (coal or logs) in the bottom slot. Iron ore → iron ingot, gold ore → gold ingot. Smelt time is 2 seconds per item.
 
 ### Armor
-Four slots (helmet / chest / legs / boots). Damage reduction is `(total defense) / 30`, capped at 85%.
-
-| Set | Reduction |
-|---|---|
-| Gold | 37% |
-| Iron | 50% |
-| Diamond | 67% |
-| Mythril | 97% |
+Four slots (helmet / chest / legs / boots). Damage reduction is `(total defense) / 30`.
 
 ### Survival
 - 20 HP, ten hearts.
